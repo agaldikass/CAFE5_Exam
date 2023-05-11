@@ -27,6 +27,7 @@ const EditForm = ({ user, onUpdate }) => {
   return (
     <StyledFormContainer>
     <StyledForm onSubmit={handleSubmit}>
+      <h1>Edit form</h1>
       <StyledLabel>
         Name:
         <StyledInput

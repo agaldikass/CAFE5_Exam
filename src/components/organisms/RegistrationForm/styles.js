@@ -23,6 +23,12 @@ export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
   padding: 20px;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+  }
 `;
 
 export const StyledLabel = styled.label`

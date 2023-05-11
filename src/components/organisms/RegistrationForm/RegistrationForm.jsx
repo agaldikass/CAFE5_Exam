@@ -63,6 +63,7 @@ function RegistrationForm() {
     <StyledContainer>
         <StyledFormContainer>
             <StyledForm onSubmit={handleSubmit}>
+                <h1>Registration</h1>
                 <StyledLabel>
                     Name:
                     <StyledInput
